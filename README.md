@@ -1,8 +1,6 @@
 # Pipeline Failure Predictor
 
-> Built with AI assistance (Muse) as a hands-on machine learning project.
-> Every design choice is documented in the scripts and README so I can
-> explain and defend each one.
+> Built with AI assistance as a hands-on machine learning project.
 
 **Will this pipeline run fail?** — ML for data observability. Trained on
 synthetic dbt/Airflow run metadata (durations, row counts, null rates, schema
@@ -10,7 +8,6 @@ changes, upstream status), it predicts run failures *before* they happen and
 explains which signals matter most.
 
 ## Why this project
-
 Most ML portfolios are house prices and churn. This one is different: it
 applies machine learning to the operational reality of data engineering —
 something only a data engineer would think to build, and only ML can solve
